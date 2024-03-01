@@ -1,21 +1,22 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import './App.css'
+
 import { IndexPage } from './Pages/index';
-
-
-function NotFound() {
-  return <h1>404 Not Found</h1>;
-}
+import { NotFound } from "./Pages/NotFound";
+import { PruebasComponentes } from "./Pages/components";
+import Navbar from "./components/Navbar";
 
 function App() {
-
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<IndexPage />}></Route>
-        <Route path="*" element={<NotFound />}></Route>
-      </Routes>
-    </BrowserRouter>
+    <>
+    <Navbar></Navbar>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<IndexPage />}></Route>
+          <Route path="/Pruebas" component={PruebasComponentes}></Route>
+          <Route path="*" element={<NotFound />}></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   )
 }
 

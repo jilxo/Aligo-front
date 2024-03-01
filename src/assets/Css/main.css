@@ -1,0 +1,27 @@
+
+@font-face {
+    font-family: 'Codec_Pro';
+    src: url("../Fonts/CodecPro-Regular.otf");
+}
+@font-face {
+    font-family: 'Codec_Pro_ExtraBold';
+    src: url("../Fonts/CodecPro-ExtraBold.otf");
+}
+
+body{
+    background-color: black;   
+    font-family: 'Codec_Pro';
+    color: white;
+    line-height: 1.2;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.fa-icon {
+    color: red;
+    font-size: 24px;
+  }
