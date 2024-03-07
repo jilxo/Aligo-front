@@ -1,0 +1,16 @@
+import Introduction  from './Section/Introduction'
+import AboutUs from './Section/AboutUs'
+import Pilars from './Section/Pilars'
+import Services from './Section/Services'
+import Statistics from './Section/Statistics'
+import Testimonials from './Section/Testimonials'
+import Contact1 from './Section/Contact1'
+import Colab from './Section/Colab'
+import Contact2 from './Section/Contact2'
+import Teams from './Section/Teams'
+import Certs from './Section/certs'
+import Counter from './Section/counter'
+import Ciber360 from './Section/360'
+import Footer from './Section/Footer'
+
+export {Introduction, AboutUs, Certs,Ciber360,Colab,Contact1,Contact2,Counter,Footer,Pilars,Services,Statistics,Teams,Testimonials}

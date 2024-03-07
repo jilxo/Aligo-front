@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { StyledButton } from "./Button";
-import Column from "./column";
+import { StyledButton } from "../Button/Button";
+import Column from "../Grid/column";
 
 const FormContainer = styled.div`
   display: flex;
