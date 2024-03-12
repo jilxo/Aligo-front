@@ -10,7 +10,7 @@ import { LogoTemp } from "../../../components/exports";
 const Introduction = () => {
     const [count, setCount] = useState(1)
     return (
-        <Row $m="5%">
+        <Row $m="5%" >
             <Column $cols={12}>
                 <Title>
                     Nos integramos en tu ecosistema
@@ -18,7 +18,7 @@ const Introduction = () => {
                 <P $margin_1>
                     Ciberseguridad 360°
                 </P>
-                <StyledButton text="Conócenos" onClick={() => { console.log("Conocenos " + count); setCount(count + 1) }} />
+                <StyledButton text="Conócenos" onClick={() => { window.location.hash = "about"; }} />
             </Column>
             <Column className="center">
                 <Img src={LogoTemp} alt="" />

@@ -20,7 +20,7 @@ const Contact1 = () => {
           <P $textCenter = "center">
             Estamos a tu disposición
           </P>
-          <StyledButton text="Contáctanos" />
+          <StyledButton text="Contáctanos"  onClick={() => { window.location.hash = "contact"; }} />
         </Column>
       </Row>
     )

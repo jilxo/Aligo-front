@@ -11,6 +11,6 @@ import Teams from './Section/Teams'
 import Certs from './Section/certs'
 import Counter from './Section/counter'
 import Ciber360 from './Section/360'
-import Footer from './Section/Footer'
+import Footer from '../../components/Footer/Footer'
 
 export {Introduction, AboutUs, Certs,Ciber360,Colab,Contact1,Contact2,Counter,Footer,Pilars,Services,Statistics,Teams,Testimonials}

@@ -30,7 +30,7 @@ const Services = () => {
             </Column>
             <Row>
                 <Column>
-                    <StyledButton text="Mas info" $color="Blue" />
+                    <StyledButton text="Mas info" $color="Blue"  onClick={() => {window.location.href = "blueteam" }} />
                 </Column>
                 <Column>
                     <StyledButton text="Mas info" />

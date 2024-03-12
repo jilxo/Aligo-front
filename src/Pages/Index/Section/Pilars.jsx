@@ -21,7 +21,7 @@ const Pilars = () => {
           tres pilares de la seguridad de la información sin
           agregar riesgos a las operaciones
         </P>
-        <StyledButton text="Contáctanos" />
+        <StyledButton text="Contáctanos"  onClick={() => { window.location.hash = "contact"; }} />
       </Column>
       <Column $cols={6} $flex_center>
         <div className="center">

@@ -1,14 +1,14 @@
 import React from "react";
-import Row from "../../../components/Grid/row";
-import Column from "../../../components/Grid/column";
-import Subtitle from "../../../components/Subtitle/subtitle";
-import P from "../../../components/P/P";
-import Font from "../../../components/FontAwesome/Font";
-import Span from "../../../components/Span/Span";
+import Row from "../Grid/row";
+import Column from "../Grid/column";
+import Subtitle from "../Subtitle/subtitle";
+import P from "../P/P";
+import Font from "../FontAwesome/Font";
+import Span from "../Span/Span";
 import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { LogoAligo } from "../../../components/exports";
-import Map from "../../../components/Map/map";
-import Img from "../../../components/Imgs/img";
+import { LogoAligo } from "../exports";
+import Map from "../Map/map";
+import Img from "../Imgs/img";
 
 const Footer = () => {
     return (

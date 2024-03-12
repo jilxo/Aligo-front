@@ -5,10 +5,10 @@ import Subtitle from "../../../components/Subtitle/subtitle"
 import Span from "../../../components/Span/Span"
 import P from "../../../components/P/P"
 
-const AboutUs = () => {
+const AboutUs = ({id}) => {
     return (
-        <Row className="center" $m="5%">
-            <Column  >
+        <Row className="center" $m="5%" id={id}>
+            <Column   >
                 <Subtitle $textOrientation="center">
                     <Span>ALIGO </Span>es una empresa de ciberseguridad que piensa y hace las cosas de una manera
                     diferente ...
