@@ -15,6 +15,7 @@ const Row = styled.div`
     justify-content: center;
     flex-direction: row;
     text-align: center;` : ``}
+    z-index: 1;
 `;
 
 export default Row;
