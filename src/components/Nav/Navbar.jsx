@@ -60,7 +60,7 @@ const Navbar = () => {
   return (
     <NavbarContainer>
       <NavItem to="/">Home</NavItem>
-      <NavItemA href="#about">Conocenos</NavItemA>
+      <NavItemA href="/#about">Conocenos</NavItemA>
       <DropdownItem>
         Servicios
         <DropdownMenu>
