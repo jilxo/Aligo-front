@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { ThemeHex, PressThemeHex, PressThemeRGBA, ThemeRGBA } from "../Theme";
 
 
-function DivBase(props) {
+const DivBase = (props) => {
   const { text, img,  ...rest } = props;
   return <input type="submit" {...rest}  value={text}/>
     
