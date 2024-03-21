@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={<IndexPage />}></Route>
           <Route path="/blueteam" element={<BlueTeamPage/>}></Route>
-          <Route path="/redteam" element={<RedTeamPage/>}></Route>
+          <Route path="/RedFindTheWay" element={<RedTeamPage/>}></Route>
           <Route path="*" element={<NotFound />}></Route>
         </Routes>
       </BrowserRouter>

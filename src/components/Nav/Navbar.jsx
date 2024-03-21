@@ -65,7 +65,7 @@ const Navbar = () => {
         Servicios
         <DropdownMenu>
           <NavItem to="/blueteam">CIBERDEFENSA</NavItem>
-          <NavItem to ="/redteam">REDTEAMING</NavItem> 
+          <NavItem to ="/RedFindTheWay">REDTEAMING</NavItem> 
         </DropdownMenu>
       </DropdownItem>
       <NavItemA href="#contact">Contactanos</NavItemA>
